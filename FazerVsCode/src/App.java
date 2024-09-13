@@ -1,29 +1,14 @@
-import java.util.Scanner;
-
 public class App {
-        //Comentário
-
-    public static void funcao_teste (){
-        //Biblioteca para entrada de dados
-        Scanner ler = new Scanner(System.in);
-
-        //variável local 
-        String v2;
-        int v1;
-
-        System.out.println("Comando de Saida de Dados");
-        
-        System.out.printf("Informe uma palavra: ");
-        v2 = ler.next();
-
-        System.out.printf("Informe um número: ");
-        v1 = ler.nextInt();
-
-        System.out.printf(v2+" "+v1);
-    }
     public static void main(String[] args) throws Exception {
-        funcao_teste();
 
-
+        RA2920482411003 marjo = new RA2920482411003 ("Marjory", 2920482411003, 22, "Marxjory", "Marjory Sousa", "ads","manha");
+         marjo.setNome("Marjory Sousa");
+         System.out.println(marjo.getNome());
+         System.out.println(marjo.getra());
+         System.out.println(marjo.getidade());
+         System.out.println(marjo.getgithub());
+         System.out.println(marjo.getLinkedin());
+         System.out.println(marjo.getcurso());
+         System.out.println(marjo.getturma());
     }
 }
